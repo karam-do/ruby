@@ -7,5 +7,6 @@ puts ("And I am " + age + " years old")
 puts ("The Weather on a height of " + height + " meter is really goood!")
 loop do
     puts Time.now
+	$stdout.flush
 	sleep (5)
 end
